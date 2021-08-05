@@ -33,14 +33,18 @@
     width: 857px;
     min-width: auto;
 
+    font-weight: bold;
+    font-style: italic; 
+
     border: 2px solid var(--color-main);
     border-radius: 4px 0 0 4px;
 }
 
-.search input {
-    font-weight: bold;
-    font-style: italic;    
-}
+::-webkit-input-placeholder {
+    color: var(--title-color);
+    opacity: 0.5;
+    
+ }
 
 .search button {
     width: 40px;
