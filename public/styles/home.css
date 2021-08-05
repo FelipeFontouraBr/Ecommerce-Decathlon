@@ -32,6 +32,14 @@
     padding: 8px 16px;
     width: 857px;
     min-width: auto;
+
+    border: 2px solid var(--color-main);
+    border-radius: 4px 0 0 4px;
+}
+
+.search input {
+    font-weight: bold;
+    font-style: italic;    
 }
 
 .search button {
