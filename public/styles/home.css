@@ -23,9 +23,24 @@
     position: relative;
 }
 
+/* SEARCH */
+.search {
+    display: flex;
+}
+
 .search input {
     padding: 8px 16px;
+    width: 857px;
     min-width: auto;
+}
+
+.search button {
+    width: 40px;
+    height: 40px;
+
+    border: none;
+    background-color: var(--color-main);
+    border-radius: 0 4px 4px 0;
 }
 
 /* ICON-HEADER */
