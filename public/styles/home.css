@@ -28,21 +28,35 @@
     min-width: auto;
 }
 
+/* ICON-HEADER */
 .icon-header {
-    display: flex;
-    
-    
-}
-
-#icon-help {
-    padding: 20px;
+    display: flex;   
     
 }
 
-#icon-store {
-    padding: 20px;
+/* ICON-HELP */
+#icon-help svg {
+    width: 25px;
 }
 
-#icon-perfil {
-    padding: 20px;
+#icon-help span {
+    margin-top: 5px;
+}
+
+/* ICON-STORE */
+#icon-store svg {
+    width: 25px;
+}
+
+#icon-store span {
+    margin-top: 5px;
+}
+
+/* ICON-PERFIL */
+#icon-perfil svg {
+    width: 25px;
+}
+
+#icon-perfil span {
+    margin-top: 5px;
 }

@@ -12,13 +12,21 @@
     line-height: 10.45px;
     text-decoration: none;
     text-align: center;
-
+/* 
     margin-top: 2px;
-    max-height: 24px;
+    max-height: 24px; */
     /* min-width: 100%; */
 
     padding-left: 3px;
     padding-right: 3px;
 
     cursor: pointer;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left:0.5rem;
+    padding-right:0.5rem;
+    height: 100%;
 }
