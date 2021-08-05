@@ -1,3 +1,8 @@
+:root {
+    --title-color: rgb(57, 57, 57);
+    --color-main: #0082C3;
+}
+
 #header {
     display: flex;
     flex-direction: column;
@@ -16,4 +21,28 @@
 
     align-items: center;
     position: relative;
+}
+
+.search input {
+    padding: 8px 16px;
+    min-width: auto;
+}
+
+.icon-header {
+    display: flex;
+    
+    
+}
+
+#icon-help {
+    padding: 20px;
+    
+}
+
+#icon-store {
+    padding: 20px;
+}
+
+#icon-perfil {
+    padding: 20px;
 }
