@@ -60,3 +60,12 @@
 #icon-perfil span {
     margin-top: 5px;
 }
+
+/* ICON-CART */
+#icon-cart svg {
+    width: 25px;
+}
+
+#icon-cart span {
+    margin-top: 5px;
+}
