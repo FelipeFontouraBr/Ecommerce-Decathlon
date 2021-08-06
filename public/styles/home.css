@@ -37,7 +37,7 @@
     font-style: italic; 
 
     border: 2px solid var(--color-main);
-    border-radius: 4px 0 0 4px;
+    border-radius: 6px 0 0 6px;
 }
 
 input:focus {
@@ -46,12 +46,13 @@ input:focus {
 }
 
 .search button {
-    width: 40px;
+    /* width: 40px; */
     height: 40px;
+    padding: 0px 16px;
 
     border: none;
     background-color: var(--color-main);
-    border-radius: 0 4px 4px 0;
+    border-radius: 0 6px 6px 0;
 }
 .search button {
     display: flex;
@@ -60,7 +61,7 @@ input:focus {
 }
 
 .search #icon-search {    
-    width: 22px;
+    width: 20px;
 }
 
 /* ICON-HEADER */
