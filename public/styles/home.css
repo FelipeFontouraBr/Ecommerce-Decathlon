@@ -53,6 +53,15 @@ input:focus {
     background-color: var(--color-main);
     border-radius: 0 4px 4px 0;
 }
+.search button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search #icon-search {    
+    width: 22px;
+}
 
 /* ICON-HEADER */
 .icon-header {
