@@ -40,7 +40,10 @@
     border-radius: 4px 0 0 4px;
 }
 
-
+input:focus {
+    border: 2px solid var(--color-main);
+    outline: 0;
+}
 
 .search button {
     width: 40px;
