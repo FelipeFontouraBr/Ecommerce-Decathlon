@@ -5,6 +5,7 @@
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+/* Main styles to Nav */
 .navbar a {
     color: var(--title-color);
 
@@ -29,4 +30,11 @@
     padding-left:0.5rem;
     padding-right:0.5rem;
     height: 100%;
+}
+
+/* Main styles to placeholder */
+::-webkit-input-placeholder {
+    color: var(--title-color);
+    opacity: 0.3;
+    
 }
