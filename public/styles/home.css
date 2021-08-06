@@ -40,11 +40,7 @@
     border-radius: 4px 0 0 4px;
 }
 
-::-webkit-input-placeholder {
-    color: var(--title-color);
-    opacity: 0.5;
-    
- }
+
 
 .search button {
     width: 40px;
