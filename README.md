@@ -14,12 +14,12 @@
   <img alt="presentacion" src=".github/presentacion.png" width="100%">
 </p>
 
-## :loudspeaker: ABOUT
+## :loudspeaker: About
 Clone of the landing page (Ecommerce) of DECATHLON, developing with Jquery.
 
 <br>
 
-## 🚀 TECHNOLOGIES
+## 🚀 Technologies
 
 This project is developing  with the following technologies:
 
@@ -30,7 +30,7 @@ This project is developing  with the following technologies:
 
 <br>
 
-# :construction: UNDER DEVELOPMENT
+## :construction: UNDER DEVELOPMENT
 
 ---
 
