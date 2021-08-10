@@ -257,3 +257,11 @@ input:focus {
     font-weight: bold;
     line-height: 16px;
 }
+
+.main-subtitle h2{
+    color: var(--title-color);
+    font-style: normal;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 18px;
+}
