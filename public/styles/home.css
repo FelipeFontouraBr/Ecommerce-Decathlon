@@ -238,3 +238,22 @@ input:focus {
 
     margin-right: 16px;
 }
+
+/* == CONTAINER == */
+#container {
+    max-width: 1808px;
+    padding-left: 56px;
+}
+
+/* Main Title */
+.main-title {
+    padding: 40px 0px;
+}
+
+.main-title h1{
+    color: var(--color-main);
+    font-style: normal;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 16px;
+}
