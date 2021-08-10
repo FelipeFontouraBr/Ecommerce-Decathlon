@@ -265,3 +265,22 @@ input:focus {
     font-weight: bold;
     line-height: 18px;
 }
+
+.slider-popular {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 30px;    
+}
+
+.one-product {    
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+
+    box-shadow: 0 0.2rem 0.4rem 0 rgb(50 50 51 / 30%);
+    border: 4px;
+}
+
