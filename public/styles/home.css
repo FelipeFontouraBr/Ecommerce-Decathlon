@@ -305,8 +305,8 @@ input:focus {
 
 .one-product .price-productos {
     /* background-color: var(--color-yellow); */
-    width: 60px;
-    padding-bottom: 20px;
+    /* width: 60px; */
+    /* padding-bottom: 20px; */
 
 }
 
@@ -323,19 +323,16 @@ input:focus {
 
 }
 
-/* .one-product p:last-child {
-    
-    background-color: var(--color-yellow);
+.one-product .card-reviews {
+    display: flex;
+    align-items: center;
+    padding: 10px 1.6rem;
+}
 
-    
-    margin-bottom: 2px;
-    margin-right: 140px;
-    margin-top: 0px;
-    padding-bottom: 2px;
-    /* padding-left: 3px; */
-    /* padding-right: 20px; */
-    /* padding-top: 2px; */
-
-/* } */
-
-
+.one-product .card-reviews span{
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 1.2rem;
+    color: #898989;
+    margin-left: 0.4rem;
+}
