@@ -11,7 +11,7 @@
 <br>
 
 <p align="center">
-  <img alt="presentacion" src=".github/presentacion.png" width="100%">
+  <img alt="presentacion" src=".github/video-update.gif" width="100%">
 </p>
 
 ## :loudspeaker: About
