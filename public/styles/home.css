@@ -43,22 +43,18 @@
     border-radius: 6px 0 0 6px;
 }
 
-input:focus {
+.search input:focus {
     border: 2px solid var(--color-main);
     outline: 0;
 }
 
 .search button {
-    /* width: 40px; */
     height: 40px;
     padding: 0px 16px;
-
     border: none;
     background-color: var(--color-main);
     border-radius: 0 6px 6px 0;
-}
 
-.search button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -303,12 +299,6 @@ input:focus {
     font-weight: 300;
 }
 
-.one-product .price-productos {
-    /* background-color: var(--color-yellow); */
-    /* width: 60px; */
-    /* padding-bottom: 20px; */
-
-}
 
 .one-product .price-productos p {
     background-color: var(--color-yellow);
