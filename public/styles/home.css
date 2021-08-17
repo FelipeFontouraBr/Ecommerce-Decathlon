@@ -322,13 +322,15 @@
 }
 
 .flex-items {
-    background-color: #FFEA28;
+    /* background-color: #FFEA28; */
 
     display: flex;    
     align-items: center;
+    position: relative;
     
     gap: 4px;
     overflow: auto;
+    overflow: hidden;
     white-space: nowrap;
 
     grid-area: items;
@@ -345,12 +347,13 @@
     max-width: 100%;
     display: inline-block;
     vertical-align: text-bottom;
-    
+        
 }
 
-.flex-items .slider-items:hover {
-    border: 1px #0082c3 solid;
+.flex-items .slider-items:hover img{
+    border: 1px #0082c3 solid;    
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .one-product h3 {
