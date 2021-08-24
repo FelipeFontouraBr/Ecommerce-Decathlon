@@ -145,35 +145,6 @@
     margin-bottom: 16px;
 }
 
-.info-banner a {
-    color: white;
-    font-weight: 700;
-    
-}
-
-.info-banner .buttons-banner {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-
-    max-width: 340px;
-}
-
-.info-banner .buttons-banner a {
-    font-size: 16px;
-    font-weight: 700;
-    padding: 8px 28px;
-
-    background-color: rgb(255, 255, 255);
-    color: var(--title-color);
-    text-decoration: none;
-    border-radius: 4px;     
-}
-
-.info-banner .buttons-banner a:hover {
-    opacity: 0.9;
-}
-
 .footer-banner {
     display: flex;
     /* justify-content: center; */
@@ -330,10 +301,11 @@
     
     gap: 4px;
     overflow: auto;
-    overflow: hidden;
+    
     white-space: nowrap;
 
     grid-area: items;
+    
 }
 
 .slider-model-v1.svelte-1dogueb .slider-model-v1-card.svelte-1dogueb {
@@ -345,12 +317,18 @@
 
 .flex-items .slider-items img {
     max-width: 100%;
-    display: inline-block;
+    /* display: inline-block; */
     vertical-align: text-bottom;
         
 }
 
-.flex-items .slider-items:hover img{
+.flex-items .slider-items img.active {
+    border: 1px #0082c3 solid;    
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.flex-items .slider-items:hover img {
     border: 1px #0082c3 solid;    
     border-radius: 4px;
     cursor: pointer;
@@ -397,3 +375,54 @@
     color: #898989;
     margin-left: 0.4rem;
 }
+
+/* Banner Commercial */
+.banner-commercial {
+    position: relative;
+}
+
+.info-banner-commercial {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    position: absolute;
+    left: 0;
+    bottom: 0;  
+    padding-bottom: 40px;
+    padding-left: 16px;
+    padding-right: 16px;  
+}
+
+.img-banner-commercial h3 {
+    color: white;    
+    font-size: 18px;
+    font-weight: 700;
+
+    line-height: 58px;
+    /* margin-bottom: 100px; */
+}
+
+.info-banner-commercial .button-banner-commercial {
+    /* margin-top: 80px; */
+
+    max-width: 120px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 16px 10px 16px;
+    display: flex;
+    justify-content: center;
+
+    background-color: rgb(255, 255, 255);
+    color: var(--title-color);
+    text-decoration: none;
+    border-radius: 4px;  
+}
+
+.img-banner-commercial .button-banner-commercial:hover {
+    opacity: 0.9;
+}
+
+
+
+

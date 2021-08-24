@@ -18,7 +18,7 @@
 <body>
     
     <div id="app">
-        <header id="header">            
+        <header id="header">                        
             <nav class="navbar">
                 <a href="https://www.decathlon.es/">
                     <img src="/public/assets/images/logo-decathlon.png" alt="Logo" id="logo">
@@ -218,18 +218,18 @@
                             <div class="slider-small-popular">
                                 <section> 
                                     <div class="slider-small">
-                                        <arrowleft disabled="true" class="svelte-16omqg9">                                            
-                                            <button type="submit">&#60;</button>
+                                        <arrowleft disabled="true" class="svelte-16omqg9">
+                                            <button class="prev">&#60;</button>
                                         </arrowleft> 
 
-                                        <arrowright disabled="false" class="svelte-16omqg9">                                            
-                                            <button type="submit">&#62;</button>
+                                        <arrowright disabled="false" class="svelte-16omqg9">
+                                            <button class="next">&#62;</button>
                                         </arrowright> 
 
                                         <items class="flex-items svelte-16omqg9" style="scroll-behavior: smooth;">
                                             <div slot="items" class="slider-items">
                                                 <div class="slider-model-v1 svelte-1dogueb no-padding">
-                                                    <img data-src="https://contents.mediadecathlon.com/p1975262/k$5b985a2dc276a8638661f8a7af3d230e/sq/Camiseta+Running+Run+Dry+Mujer+Verde.jpg?f=250x250" alt="Camiseta running run dry+ mujer verde" class="slider-model-v1-card svelte-1dogueb lz-ldd selected" height="38" width="38" src="https://contents.mediadecathlon.com/p1975262/k$5b985a2dc276a8638661f8a7af3d230e/sq/Camiseta+Running+Run+Dry+Mujer+Verde.jpg?f=250x250" data-sourced="true">
+                                                    <img data-src="https://contents.mediadecathlon.com/p1975262/k$5b985a2dc276a8638661f8a7af3d230e/sq/Camiseta+Running+Run+Dry+Mujer+Verde.jpg?f=250x250" alt="Camiseta running run dry+ mujer verde" class="slider-model-v1-card svelte-1dogueb lz-ldd active" height="38" width="38" src="https://contents.mediadecathlon.com/p1975262/k$5b985a2dc276a8638661f8a7af3d230e/sq/Camiseta+Running+Run+Dry+Mujer+Verde.jpg?f=250x250" data-sourced="true">
                                                 </div>
                                             </div>
 
@@ -393,6 +393,20 @@
                     </div>
 
                 </div>
+
+                <div class="banner-commercial">
+                    <div class="img-banner-commercial">
+                        <img style="margin: 20px auto; border-radius: 4px; max-width: 1230px; width: 100%; background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://contents.mediadecathlon.com/s878777/k$c52ea9d1c058bd31df76226f933b52a0/banner%20opco%20club%20desk%20%202.jpg">
+                        <div class="info-banner-commercial">
+                            <h3>
+                                Decubre nuestro catálogo para clubes
+                            </h3>
+                            <a href="#" class="button-banner-commercial">Ver catálogo</a>
+                        </div>
+                    </div>
+
+                </div>
+
             </div>
 
         </main>
@@ -403,7 +417,7 @@
 
     </div>  
     
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>    
     <script src="/public/scripts/main.js"></script>
 </body>
 </html>
