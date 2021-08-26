@@ -209,8 +209,9 @@
 
 /* == CONTAINER == */
 #container {
-    max-width: 1808px;
-    padding-left: 56px;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0.2rem 2rem;
 }
 
 /* Main Title */
@@ -379,6 +380,10 @@
 /* Banner Commercial */
 .banner-commercial {
     position: relative;
+    width: 100%;
+    max-width: 1920px;
+
+    margin: 0 auto;
 }
 
 .info-banner-commercial {
@@ -421,6 +426,13 @@
 
 .img-banner-commercial .button-banner-commercial:hover {
     opacity: 0.9;
+}
+
+.banner-cards {
+    width: 90%;
+    max-width: 1100px;
+
+    margin: 0 auto;
 }
 
 
