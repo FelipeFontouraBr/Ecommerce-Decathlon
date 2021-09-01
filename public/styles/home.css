@@ -429,12 +429,29 @@
 }
 
 .banner-cards {
-    width: 90%;
-    max-width: 1100px;
-
-    margin: 0 auto;
+    width: 100%;
 }
 
+.banner-cards-main {
+    
+}
+
+.banner-cards-img {
+    background-color: orange;
+    position: relative;
+}
+
+.banner-cards-img img {
+    width:97%;
+    height:97%;
+    border-radius: 4px;
+}
+
+.info-banner-cards-main {
+    position: absolute;
+    margin-top: -280px;
+    padding: 1.6rem 1.6rem 2.4rem;
+}
 
 
 
