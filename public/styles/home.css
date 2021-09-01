@@ -471,7 +471,12 @@
     font-weight: 700;
     border-radius: 4px;
 
-    cursor: pointer;
+    cursor: pointer;    
+}
+
+.info-banner-cards-main a:hover {
+    background-color: white;
+    color: var(--title-color);    
 }
 
 
