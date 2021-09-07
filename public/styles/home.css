@@ -530,6 +530,33 @@
     min-height: 43px;
 }
 
+/* == FOOTER == */
+footer {
+    background-color: #EFEFEF;
+    height: 120px;
+}
+
+.footer-first-info {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+    font-size: 14px;
+    color: rgb(137, 137, 137);
+    padding-top: 30px;
+}
+
+.footer-last-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 14px;
+    color: rgb(137, 137, 137);
+    padding-top: 30px;
+    max-width: 1800px;
+}
 
 
 
