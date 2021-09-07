@@ -501,17 +501,18 @@
     padding: 16px;
     background-color: pink;
     border-radius: 4px;
-}
 
-.cards-content svg {
-    width: 100%;
-    height: auto;
-    max-height: 50px;
-
+    display: flex;
+    flex-direction: column;
 }
 
 .cards-content p {
     font-size: 14px;
+}
+
+.svg-cards {
+    margin-bottom: 1.6rem;
+    min-height: 43px;
 }
 
 
