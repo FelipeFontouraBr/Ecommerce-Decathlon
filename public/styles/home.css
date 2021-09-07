@@ -434,6 +434,8 @@
 
 .banner-cards {
     max-width: 1920px;
+
+    position: relative;
 }
 
 .banner-cards-img {
@@ -493,8 +495,15 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     column-gap: 10px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     max-width: 90%;
+    
+    position: absolute;
+    margin-top: -70px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
 }
 
 .cards-content {
@@ -504,6 +513,7 @@
 
     display: flex;
     flex-direction: column;
+    height: 100%;
 }
 
 .cards-content p {
